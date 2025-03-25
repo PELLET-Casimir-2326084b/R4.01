@@ -5,10 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6c803d8-b1be-44c9-9a0a-bc67101ce839" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Body.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/body/Body.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/body/Body.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/button/Button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/button/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/Categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/DataContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/Taches.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/header/Camembert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Body.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,22 +54,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/amuhome/p23000865/Documents/R4.01/mon-app&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ssh.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/amuhome/p23000865/Documents/R4.01/mon-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ssh.settings",
+    "ts.external.directory.path": "/usr/local/idea-IU-243.21565.193/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -72,7 +90,10 @@
       <workItem from="1741880791159" duration="1090000" />
       <workItem from="1742214973840" duration="82000" />
       <workItem from="1742474466554" duration="63000" />
-      <workItem from="1742474578219" duration="1392000" />
+      <workItem from="1742474578219" duration="6097000" />
+      <workItem from="1742482833006" duration="4714000" />
+      <workItem from="1742547885403" duration="176000" />
+      <workItem from="1742887261587" duration="11233000" />
     </task>
     <servers />
   </component>

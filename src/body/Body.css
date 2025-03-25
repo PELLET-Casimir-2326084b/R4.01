@@ -1,0 +1,136 @@
+/* Style général du header */
+.header {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Conteneur des boutons */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+}
+
+button.active {
+    background-color: #3498db;
+    color: white;
+    border-color: #3498db;
+}
+
+/* Style pour le main */
+main {
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Style des tâches */
+.tache {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.tache h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tache .etat {
+    font-size: 1rem;
+    color: #666;
+}
+
+.tache .date {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.tache .date span {
+    font-weight: bold;
+}
+
+/* Style pour afficher ou masquer les détails des tâches */
+.tache-details {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+}
+
+/* Style des catégories */
+.categorie {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.categorie h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categorie .status {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Couleurs des catégories */
+.categorie[data-color="orange"] {
+    border-left: 5px solid orange;
+}
+
+.categorie[data-color="blue"] {
+    border-left: 5px solid blue;
+}
+
+/* Style pour afficher ou masquer les détails des catégories */
+.category-details {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+}
+
+/* Ajout des icônes pour l'accordéon */
+.tache h3 span, .categorie h3 span {
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.tache-item, .category-item {
+    transition: all 0.3s ease;
+}
